@@ -1,6 +1,10 @@
 var questions = [
-    {questionText: "is JavaScript Fun?", answer: true},
-    {questionText: "JavaScript is needed", answer: true}
+    {questionText: "JavaScript Fun?", answer: true},
+    {questionText: "JavaScript is needed", answer: true},
+    {questionText: "JavaScript is a programming language?", answer: true},
+    {questionText: "Learning JavaScript is a good idea?", answer: true},
+    {questionText: "Most website use JaveScript", answer: true},
+    {questionText: "No one really uses Java Script", answer: false}
 ]
 var questionIndex = 0;
 var answered = false
