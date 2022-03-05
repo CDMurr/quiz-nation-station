@@ -1,0 +1,65 @@
+header {
+    color: gold;
+    background-color: blue;
+}
+
+header h1 {
+    border: 2px solid;
+    border-color: black;
+}
+
+main {
+    border: 2px solid;
+    border-color: black;
+}
+
+main span {
+    background-color: white;
+    font-size: large;
+    font: bold;
+}
+
+#questions {
+    border: 2px solid;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.game-board {
+    background-color: red;
+}
+
+#quiz, #next {
+    background-color: blue;
+    color: white;
+}
+
+.btn-group {
+        background-color: blue;
+        color: white;
+}
+
+#true {
+    background-color: orange;
+}
+
+#false {
+    background-color: orange;
+}
+
+#timer {
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+}
+
+body {
+    margin: 150px 250px 150px 250px;
+    background-color: lightgray;
+    border: 5px dashed;
+    border-color: white;
+}
+
+.hide {
+    display: none;
+}

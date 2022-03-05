@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Nation Station</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>QUIZ NATION STATION</h1>
+    </header>
+    
+    <!-- this is where we will put the main container for buttons, timer and question -->
+    <main class="game-board"><span>Select next question to see if answer is correct</span>
+        <div id="question-board">
+            <!-- change class name later if possible to something more fun  -->
+            <div class="buttons">
+                <p id="timer"></p>
+                <button id="quiz">Start Quiz</button>
+                <button id="next">Next Question</button>
+                <div class="btn-group" role="group">
+                    <div id="questions" class="hide"><p id="question">Question is JavaScript fun?</p><button class="true-button" id="true">True</button>
+                        <button class="false-button" id="false">False</button></div>
+          
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- div for list of questions to be asked  -->
+
+    <!-- add src="script.js" -->
+    <script src="script.js"></script>
+</body>
+</html>
